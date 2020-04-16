@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.box {
+  border: 3px double darkred;
+  padding: 5px;
+}
+
+/* dl {
+  border: 3px double #ccc;
+  padding: 5px;
+} */
+
+/* dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  color: darkred;
+} */
+
+dt::after {
+  content: ":";
+}
+
+dd {
+  margin: 0 0 0 100px;
+  padding: 0 0 5px 0;
+}
+
+.errorMessage {
+  color: crimson;
+  background-color: #F0F0F0;
+  font-size: 0.8em;
+}
